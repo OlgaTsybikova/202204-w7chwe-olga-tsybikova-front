@@ -8,6 +8,7 @@ const loginThunk = (userData) => async (dispatch) => {
   const { data, status } = await axios.post(`${url}/user/login`, userData);
 
   if (status === 200) {
+    debugger;
     const userInfo = jwtDecode(data.token);
     localStorage.setItem("token", data.token);
     dispatch(loginActionCreator({ username: userInfo.username }));
