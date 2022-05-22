@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a LoginForm component Then it should render correctly when there are no items 1`] = `
+<form
+  autoComplete="off"
+  className="sc-bczRLJ hDLlWZ"
+  noValidate={true}
+  onSubmit={[Function]}
+>
+  <label
+    htmlFor="username"
+  >
+    Username:
+    <input
+      id="username"
+      onChange={[Function]}
+      placeholder="Username"
+      type="text"
+      value=""
+    />
+  </label>
+  <label
+    htmlFor="password"
+  >
+    Password:
+    <input
+      id="password"
+      onChange={[Function]}
+      placeholder="Password"
+      type="password"
+      value=""
+    />
+  </label>
+  <button
+    disabled={true}
+    type="submit"
+  >
+    LOG IN
+  </button>
+</form>
+`;
